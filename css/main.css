@@ -1,0 +1,124 @@
+
+body{
+padding: 0;
+margin: 0;
+}
+
+/*imagen en section todos los pokemones*/
+#new2{
+    background-image: url('../img/pokemones.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25rem;
+    margin-top: 70px;
+    padding: auto;
+ }
+
+ /*Modificar el nav que cambie de color*/
+ /*ajustar el color en el nav*/
+.bgcolor.scrolled{
+    background-color: rgba(0, 0, 255, 0.233);
+}
+
+/*Modificar el color de fondo o imagen de fondo de la seccion Card*/
+#new3{
+    background-color: whitesmoke 
+}
+#new4{
+    background-image: url('../img/pokedek.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30rem;
+    margin-top: auto;
+    padding: auto;
+}
+
+/*final de el color de fondo o imagen de fondo de la seccion Card*/
+
+
+/* ver busqueda del pokemon en la pokedek formato de celda */
+form.form-row{
+ width: 30%;
+ padding: 10px 10px;
+}
+#SearchPoke{
+border: 10px solid red;
+border-radius: 10px;
+background: yellow;
+overflow: hidden;
+box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.237)
+}
+#SearchPoke{
+    background-color: yellow;
+}
+/* termino busqueda del pokemon en la pokedek formato de celda */
+
+
+/* centrar imagen de pokemon en la foto de la pokede  */
+#new4{
+    height: 30px;
+    padding-top: 240px;
+    padding-left: 250px;
+}
+
+.img-thumbnail { 
+    min-height: 170px;   
+}
+
+.container{
+    padding-top: 0px;
+    
+}
+/* centrar imagen de pokemon en la foto de la pokede */
+
+#chartContainer{
+    height: 80px;
+    padding-top: 40px;
+    padding-left: 50px;
+
+}
+
+
+/* formulario */
+
+.form-row{
+    width: 550px;
+    height: 70px;
+    margin: 50px auto;
+    display: flex;
+  }
+
+.container{
+    border: 5px solid #3EC483;
+    border-radius: 25px;
+    background-image: url('../img/pokego.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 1200px rgba(0, 0, 255, 0.237)
+}
+
+
+/* final formulario */
+
+
+
+
+
+/* footer */
+
+.blue{
+    background-color: blue;
+    text-align: center;
+    text-emphasis-color: white;
+    
+}
+
+.textoFooter{
+    color: white;
+    size: 3opx;
+
+}
+
+
+/* final footer */

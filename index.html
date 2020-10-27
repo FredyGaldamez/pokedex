@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pokemaniac</title>
+    <link rel="shortcut icon" type="image/png" href="img/pokeball.png"/>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+ <!--CSS de Bootstrap 4.2.1-->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+ <!--Google Fonts-->
+ <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
+ <!--Font Awesome-->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<!--jQuery 3.5.1-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <!--Mi estilo-->
+ <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+  <!--Mi script-->
+ <script src="js/main.js"></script>
+  <!--Canvas-->
+ <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+</head>
+<body>
+  
+<!-- realizar navegador cambieando de color, el atributo fixed (Fija la barra y bgcolor es el color secundario a cambiar, estoy buscando un tercer cambio) -->
+   <!-- **************tratar de modificar otro color y el tamaño de las letras IMPORTANTE****************** -->
+
+<nav class="navbar navbar-expand-lg navbar-light
+     fixed-top bgcolor">
+        
+      <div class= "container-fluid newNab" >
+        <a class="navbar-brand" href="#">
+          <img src="img/logo3.png" height="40px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#new3">Historia <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#SearchPoke">Pokedex <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="Formulario.html">Registrate <span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Busqueda</button>
+          </form>
+        </div>
+       </div>
+      </nav>
+<!-- termina de la barra de navegacion -->
+
+<!-- secion de imagen de pokemon (Relleno) -->
+    <section class="container-fluid" id=new2>
+
+   
+    </div>
+    </div>
+    </section>
+
+<!-- Termino de imagen de relleno -->
+
+
+<!-- Generar unas secciones de rellenos *****(Cards tratar de modificar la altura de las fotos y los padding)**** -->
+
+    <div class="container-fluid  pt-5" id=new3> 
+        <div clas="card-deck">
+          <div class="row">
+
+            <div class="col-12 col-md-3 col-sm-6">
+          <div class="card text-white bg-primary mb-3" style="width: 18rem;" id="card1">
+            <img src="img/inicio.jpg" class="card-img-top img-thumbnail" alt="...">
+            <div class="card-body">
+              <p class="card-text">Pokemon significa monstruo de bolsillo, palabra traducida al inglés como pocket (edición pequeña o portátil, de bolsillo) 
+                y monster (monstruo). Pokemon es una palabra mixta formada por dos términos en japonés «poketto» y «monsuta», 
+                que se traducen al inglés con las mismas palabras e iniciales (PM). </p>
+                <p>Foto (Primer boceto pokemon Rhydon)</p>
+            </div>
+          </div>
+        </div>
+      
+      
+        <div class="col-12 col-md-3 col-sm-6">
+          <div class="card text-white bg-success mb-3" style="width: 18rem;" id="card2">
+            <img src="img/satoshi.jpg" class="card-img-top img-thumbnail" alt="...">
+            <div class="card-body">
+              <p class="card-text">Satoshi Tajiri (田尻 智 Tajiri Satoshi?) (Tokio, 28 de agosto de 1965) es un diseñador de videojuegos japonés, creador de Pocket Monsters (Pokémon).</p>
+            </div>
+          </div>
+       </div>
+
+       <div class="col-12 col-md-3 col-sm-6">
+          <div class="card text-white bg-success mb-3" style="width: 18rem;" id="card3">
+            <img src="img/juegos.jpg" class="card-img-top img-thumbnail" alt="...">
+            <div class="card-body">
+              <p class="card-text">Pokémon (ポケモン Pokemon?) es una franquicia de medios que originalmente comenzó como un videojuego RPG, pero debido a su popularidad ha logrado 
+                expandirse a otros medios de entretenimiento como series de televisión, juegos de cartas, ropa, entre otros, convirtiéndose en una marca que es reconocida en el mercado mundial.
+                 Las ventas de videojuegos hasta el 1 de diciembre de 2006 habían alcanzado una cantidad de 340 millones de ejemplares (incluyendo la venta de la versión Pikachu de la consola Nintendo 64),​ 
+                 logrando ocupar el segundo lugar de las sagas de videojuegos más vendidos de Nintendo.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 col-sm-6">
+          <div class="card text-white bg-success mb-3" style="width: 18rem;" id="card3">
+            <img src="img/pokego.jpg" class="card-img-top img-thumbnail" alt="...">
+            <div class="card-body">
+              <p class="card-text">Pokémon GO es un videojuego de realidad aumentada basado en la localización desarrollado por Niantic1​2​ para dispositivos iOS y Android. Es un videojuego gratuito 
+                pero contiene microtransacciones.3​ El juego consiste en buscar y capturar personajes de la saga Pokémon escondidos en ubicaciones del mundo real y luchar con ellos, lo que implica desplazarse 
+                físicamente por las calles de la ciudad para progresar.</p>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        </div>
+      </div>
+<!-- Termino de la seccion de informacion -->
+
+
+<!-- Generar las Api con la apipokede y jCanvas tratar de generar un grafico de diferencia de dos pokemones -->
+
+
+<!-- Generar la busqueda del pokemon a travez del nombre de el -->
+
+<div class="container" id="SearchPoke">
+  <form class="form-inline">
+    
+        <label for="inputEmail4">Numero Pokemon</label>
+     <input type="number" class="form-control" id="caja" placeholder="Ingreso Numero del 1 al 807" >
+  <button  class="btn btn-primary my-5" onclick="mostraPokemon()" id="boton">Buscar</button>
+</form>
+  </div>
+
+<!-- termino de la busqueda por nombre -->
+
+
+<!-- tomar el valor del canvas -->
+<div id="chartContainer" style="height: 220px; width: 100%;"></div>
+
+
+<!-- fin de la captura del canvas -->
+
+
+<!-- Imagen del pokemon por API (POKEAPI) -->
+
+<div class="container" id="new4">
+  <div class='card-deck' >
+    <div class="row">
+      <div id="ApiResponsive" >  
+      </div>
+
+
+      </div>
+    </div>
+
+   
+    
+
+</div>
+ 
+<!-- Termino de la Imagen del pokemon por API (POKEAPI) -->
+
+
+
+
+ <!-- Generar el footer -->
+
+ <div class="container-fluid">
+  <footer id="contacto" class="blue">
+    <div class="textoFooter">
+    <p>Prueba 3- Fundamentos Desarrollo Web y JavaScript</p>
+    <p>Autor Fredy Galdamez mendez</p>
+  </div>
+      <a href="https://github.com" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+      <a href="https://www.linkedin.com"  target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+      
+  </footer>
+</div>
+
+ 
+<!-- Termino de Footer -->
+    
+
+</body>
+</html>
